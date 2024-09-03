@@ -25,7 +25,7 @@ export default function Disney() {
         marginBottom: '10px', 
     };
 
-    return (
+    return ( 
         <Pagina titulo="Disney">
             <div style={{ display: 'flex', gap: '10px' }}> {}
             <div style={{ display: 'flex', marginBottom: '20px' }}>

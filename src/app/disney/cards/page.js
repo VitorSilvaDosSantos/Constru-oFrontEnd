@@ -24,14 +24,14 @@ export default function Objetos() {
         marginBottom: '10px',
     };
 
-    return (
+    return ( 
         <Pagina titulo="Disney Cards">
             <div style={{ display: 'flex', marginBottom: '20px' }}>
                 <Button variant="dark" onClick={() => router.push('/disney')}>
                      Disney
                 </Button>
             </div>
-            <Row md={3}>
+            <Row md={4}>
                 {personagens.map(item => (
                     <Col key={item._id} className="my-2"> {}
                         <Card>

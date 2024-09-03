@@ -35,7 +35,7 @@ export default function Objetos() {
             <Table striped bordered hover>
                 <thead>
                     <tr>
-                        <th>#</th>
+                        <th>ID</th>
                         <th>Nome</th>
                         <th>Foto</th>
                     </tr>
